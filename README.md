@@ -32,9 +32,10 @@ npm run test:ui
 # Cobertura
 npm run test:cov
 # abre coverage/index.html
+```
 
 ## Tecnologías utilizadas
-
+```bash
 - **Vue 3 (`<script setup>` + Composition API)**  
   Framework principal para la interfaz; favorece componentes declarativos, reactividad simple y tipado opcional.
 
@@ -58,9 +59,10 @@ npm run test:cov
 
 - **Lighthouse**  
   Auditoría de Performance, Accesibilidad, Best Practices y SEO para orientar mejoras.
+```
 
-  ## 🧠 Breve explicación técnica
-
+  ## Breve explicación técnica
+```bash
 - **Arquitectura por capas**
   - **Vistas** (routing con lazy loading) → **Componentes presentacionales** → **Store Pinia** → **Repositorio de datos** → **Mocks JSON**.
 - **SOLID**
@@ -75,9 +77,10 @@ npm run test:cov
   - Roles/`aria-label`, `aria-live` en cargas/errores y `scope="col"` en encabezados de tabla.
 - **Pruebas**
   - Vitest + Vue Test Utils: pruebas de componentes, store con **repositorio mockeado** y **snapshots**.
+```
 
 ## Notas de mejora futura
-
+```bash
 - **Performance**
   - Servir **Brotli/Gzip** en prod.
   - **Reducir JS/CSS no usado**; minificar y revisar dependencias pesadas (Vuetify, `@mdi/font` → `@mdi/js` o `unplugin-icons`).
@@ -98,3 +101,4 @@ npm run test:cov
 - **DX / CI**
   - Pipeline de **CI** con lint + test + build + lighthouse-ci.
   - Reportes de cobertura mínimos (por ejemplo, ≥80% en `services` y store).
+```
