@@ -1,0 +1,7 @@
+[
+  { "id": "pay_1001", "date": "2025-07-01T12:00:00Z", "amount": 199.0, "currency": "MXN", "status": "PAID" },
+  { "id": "pay_1000", "date": "2025-06-01T12:00:00Z", "amount": 199.0, "currency": "MXN", "status": "PAID" },
+  { "id": "pay_0999", "date": "2025-05-01T12:00:00Z", "amount": 199.0, "currency": "MXN", "status": "FAILED" },
+  { "id": "pay_0998", "date": "2025-04-01T12:00:00Z", "amount": 199.0, "currency": "MXN", "status": "PAID" },
+  { "id": "pay_0997", "date": "2025-03-01T12:00:00Z", "amount": 199.0, "currency": "MXN", "status": "PENDING" }
+]

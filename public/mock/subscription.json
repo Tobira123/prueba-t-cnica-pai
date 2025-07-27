@@ -1,0 +1,9 @@
+{
+  "planId": "pro_monthly",
+  "planName": "Pro Mensual",
+  "price": 199.0,
+  "currency": "MXN",
+  "status": "ACTIVE",
+  "renewsAt": "2025-08-01T00:00:00Z",
+  "features": ["Proyectos ilimitados", "Soporte prioritario", "Análisis avanzados"]
+}
